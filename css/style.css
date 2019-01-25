@@ -54,38 +54,6 @@ img
 {
     padding-bottom: 15px;
 }
-.nav
-{
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #000000;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 25px;
-}
-#sidenav a
-{
-    padding: 10px 10px 10px 50px;
-    color: #f0a8a8;
-    display: block;
-    transition: 0.3s;
-}
-#sidenav a:hover
-{
-    color: #ffffff;
-}
-#sidenav.closebtn
-{
-    position: absolute;
-    top: 0;
-    right: 25px;
-    margin-left: 50px;
-}
-@media screen and (max-height: 100%)
-{
-    .sidenav {padding-top: 15px;}
-}
+
+/* ------------------------------------ */
+

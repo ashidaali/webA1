@@ -10,8 +10,13 @@
         <script src="../libs/popper.min.js"></script>
         <script src="../libs/bootstrap.min.js"></script>
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/home.css">
         <link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
         <title>TripleAsHomepage</title>
+
+        <style>
+            
+            </style>
     </head>
 
     <body>
@@ -22,20 +27,17 @@
             </div>
         </header>
 
-        <h3>Medium sized header tag</h3>
-
-        <div class="nav" id="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <ul>
-                    <li><a href=homepage.html>Home</a></li>
-                    <li><a href=#>Artwork</a></li>
-                    <li><a href=about.html>About</a></li>
-                    <li><a href=#>Contact</a></li>
-                </ul>
-            </div>
-            <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
-            <script src="../js/code.js"></script>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+          
+          <span id = "nav_btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          
+        <script src = "../js/code.js"></script>
     </body>
-
     
 </html>
