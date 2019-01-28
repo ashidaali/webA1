@@ -10,22 +10,65 @@
         <script src="../libs/popper.min.js"></script>
         <script src="../libs/bootstrap.min.js"></script>
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/navbar.css">
         <link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
-        <title>TripleAsHomepage</title>
+        <title>AboutTripleA</title>
     </head>
 
     <body>
         <div class="content">
-            <div id="title"><h6 align="center">ABOUT</h6></div>
+            <div id="title"><h5 align="center">ABOUT</h5></div>
+            <div><button id="login" onclick="location.href='login.html'" type="button">Login</button></div>
             <div id="about">
-                <p align="justify">Ashida Angelina Ali is an independent 22 year old artist who has always had a sincere passion for art.
+                <p class="info" id="p1" align="justify">Ashida Angelina Ali is an independent 22 year old artist who has always had a sincere passion for art.
                 She pursued Visual Arts as one of her CSEC subjects in 2012 and was certified for her talent and hardwork. 
                 Although she was not able to complete anymore certifications in the field of art, she continued creating pieces in her spare time and developing her skills.
-                She creates pieces from imagination based on mood and reality.
-                Her pieces are created from pencils, watercolor paints, acrylic paints, ink, charcoal, oil pastels and her personal favourite, chalk pastels.
-                Artworks are done on MDF board cut to different sizes and shapes. MDF board is also frame compatible.</p>
+                She creates pieces from imagination based on mood and reality.</p>
+                <p class="info">Her pieces are created from:
+                <ol>
+                    <li>Ink</li>
+                    <li>Charcoal</li>
+                    <li>Paint
+                        <ul>
+                            <li>Watercolors</li>
+                            <li>Acrylics</li>
+                            <li>Oil</li>
+                        </ul>
+                    </li>
+                    <li>Pastels
+                        <ul>
+                            <li>Chalk</li>
+                            <li>Oil</li>
+                        </ul>
+                    </li>
+                    <li>Pencil
+                        <ul>
+                            <li>Graphite</li>
+                            <li>Basic Colored</li>
+                            <li>Water Colored</li>
+                        </ul>
+                    </li>
+                </ol>
+                </p>
+                <p class="info" align="justify">Artworks are done on MDF board cut to different sizes and shapes. MDF board is also frame compatible.
+                Frames are available only upon request. Prices may vary based on size and media used.</p>
             </div>
         </div>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="#">Artwork</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+          
+        <span id = "nav_btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+        <script src = "../js/code.js"></script>
+
     </body>
+    
 </html>
 

@@ -10,7 +10,8 @@
         <script src="../libs/popper.min.js"></script>
         <script src="../libs/bootstrap.min.js"></script>
         <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/home.css">
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="stylesheet" href="../css/slideshow.css">
         <link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
         <title>TripleAsHomepage</title>
 
@@ -27,17 +28,62 @@
             </div>
         </header>
 
+        <button id="login" onclick="location.href='login.html'" type="button">Login</button>
+
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
-          </div>
+            <ul>
+                <li><a href="#">Artwork</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
           
-          <span id = "nav_btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <span id = "nav_btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
           
         <script src = "../js/code.js"></script>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 4</div>
+              <img class="pics" src="../img/picasso.jpg">
+              <div class="text">"I want to get to the stage where nobody can tell how a picture of mine is done. Why is that?
+                Simply that I want nothing but emotion given off by it." -Pablo Picasso (Guernica:1937) 
+              </div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 4</div>
+              <img class="pics" src="../img/vanGogh.jpg">
+              <div class="text">"I am a fanatic! I feel a power within me. A fire that i may not quench, but must keep ablaze." 
+                  -Vincent van Gogh (The Starry Night:1889)
+              </div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 4</div>
+              <img class="pics" src="../img/manet.jpg">
+              <div class="text">"There are no lines in nature. Only areas of color, one against another." -Edouard Manet (The Old Musician:1862)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img class="pics" src="../img/daVinci.jpg">
+                <div class="text">"Nothing is hidden beneath the sun." -Leornado da Vinci (Battle of Anghiari:1503)</div>
+            </div>
+            
+        </div>
+            
+        <div style = "text-align: center;">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span>
+            <span class="dot"></span> 
+        </div>
+
+        <script src = "../js/code.js"></script>
+            
     </body>
     
 </html>

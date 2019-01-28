@@ -2,6 +2,7 @@ body
 {
     background-color: #000000;
 }
+
 img 
 {
     display: block;
@@ -10,6 +11,7 @@ img
     height: 200px;
     padding-bottom: 25px;
 }
+
 .header 
 {
     padding-top: 25px;   
@@ -23,6 +25,7 @@ img
     border-left-color: #f0a8a8;
     border-left-width: 5; 
 }
+
 #quote 
 {
     padding-top: 10px;
@@ -41,19 +44,49 @@ img
     border-left-color: #f0a8a8;
     border-left-width: 5; 
 }
+
 .content
 {
-    padding-top: 200px;
-    padding-left: 100px;
-    padding-right: 100px;
-    color: #f0a8a8;
-    word-spacing: 2px;
-    letter-spacing: 1px;
+    color: #ffffff;
 }
+
 #title
 {
-    padding-bottom: 15px;
+    padding: 25px;
+    color: #f0a8a8;
+    font-family: 'Akronim';
+    border-style: outset;
+    border-color: #f0a8a8;
+    border-width: 5;
 }
 
-/* ------------------------------------ */
+#about
+{
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
 
+.info
+{
+    padding-top: 50px;
+}
+
+#p1
+{
+    padding-top: 100px;
+}
+
+#login
+{
+    position: absolute;
+    right: 0;
+    margin-right: 25px;
+    margin-top: 25px;
+    background-color: #000000;
+    border-style: outset;
+    border-color: #f0a8a8;
+    cursor: pointer;
+    color: #ffffff
+}
