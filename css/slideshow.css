@@ -35,7 +35,6 @@ img
   color: #ffffff;
   font-size: 20px;
   padding: 10px;
-  position: absolute;
   width: 100%;
   text-align: center;
 }
@@ -51,7 +50,7 @@ img
 
 .dot 
 {
-
+  border: 1px solid #f0a8a8;
   height: 15px;
   width: 15px;
   margin: 0;
