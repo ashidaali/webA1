@@ -1,0 +1,11 @@
+#formatTable
+{
+    width: 40vw;
+    margin: 250px auto;
+}
+
+th
+{
+    text-align: center;
+}
+
