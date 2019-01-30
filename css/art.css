@@ -16,7 +16,7 @@
 {
     display: block;
     text-align: center;
-    width: 100%;
+    width: 100%;  
     margin-top: 25px;
 }
   
@@ -48,7 +48,7 @@
   
 .dropdown:hover .dropdown-content 
 {
-    display: block;
+    display: inline-block;
 }
   
 .dropdown:hover .dropbtn 
@@ -79,6 +79,11 @@
 }
 
 .col-md-3
+{
+    height: 100%;
+}
+
+.thumbnail
 {
     height: 100%;
 }
