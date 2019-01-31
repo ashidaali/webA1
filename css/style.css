@@ -58,6 +58,8 @@ img
     border-style: outset;
     border-color: #f0a8a8;
     border-width: 5;
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 #about
