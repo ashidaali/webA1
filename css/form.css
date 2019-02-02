@@ -6,9 +6,51 @@
 .form-group
 {
     color: #ffffff;
+    font-size: 20px;
+    padding-top: 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+#sub-cat
+{
+    padding-top: 2px;
 }
 
 .btn
 {
     margin-top: 100px;
+}
+
+.method
+{
+    margin: 25px;
+}
+
+.frame
+{
+    margin: 25px;
+}
+
+.cat
+{
+    margin: 25px;
+}
+
+.custom-select
+{
+    font-size: 16px;
+    word-spacing: 2px;
+}
+
+#comments
+{
+    font-size: 16px;
+    word-spacing: 2px;
+}
+
+.btn-primary
+{
+    margin-bottom: 50px;
 }

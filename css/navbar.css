@@ -1,6 +1,7 @@
 body 
 {
   font-family: 'Franklin Gothic Medium';
+  background-image: url(../img/background.jpg);
 }
   
 .sidenav 
@@ -11,6 +12,7 @@ body
   z-index: 1;
   top: 0;
   left: 0;
+  background-image: url(../img/navbar.jpg);
   background-color: #000000;
   overflow-x: hidden;
   transition: 0.5s;
@@ -55,6 +57,7 @@ body
   padding: 20px;
   position: fixed;
   top: 0;
+  z-index: 999;
 }
   
 @media screen and (max-height: 450px)

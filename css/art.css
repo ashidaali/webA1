@@ -7,8 +7,6 @@
     border-style: outset;
     border-color: #f0a8a8;
     cursor: pointer;
-    cursor: pointer;
-    width: 10vw;
     display: inline-block;
 }
   
@@ -83,9 +81,11 @@
     height: 100%;
 }
 
-.thumbnail
+.img-card
 {
-    height: 100%;
+    margin-bottom: 25px;
+    padding: 5px;
+    border: 1px solid #ffffff;
 }
 
 #top
@@ -94,7 +94,7 @@
     bottom: 0;
     right: 0;
     margin-right: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-color: #000000;
     border-style: outset;
     border-color: #f0a8a8;
@@ -112,4 +112,9 @@
 .order
 {
     margin-top: 10px;
+}
+
+.thumbnail-image
+{
+    height: 250px;
 }

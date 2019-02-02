@@ -92,3 +92,8 @@ img
     cursor: pointer;
     color: #ffffff
 }
+
+.list-type
+{
+    list-style-type: circle;
+}

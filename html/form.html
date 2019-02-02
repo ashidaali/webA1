@@ -22,16 +22,87 @@
         </div>
 
         <div class="container">
-        <form action="/action_page.php">
+        <form onsubmit="return false;">
+
             <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email" name="Email">
+                <label for="email">Email:</label><br>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
             </div>
+
             <div class="form-group">
                 <label for="pwd">Password:</label>
                 <input type="password" class="form-control" id="pwd" placeholder="Enter password">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+
+            <div class="form-group">
+                <label for="cat">Number of Pieces:</label>
+                <select class="custom-select">
+                    <option selected>Select amount</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group" id="sub-cat">
+                <label for="size">If other, please specify number of pieces</label>
+                <input type="text" class="form-control" id="other" placeholder="Enter amount">
+            </div>
+
+            <div class="form-group">
+                <label for="num-cat">Number of Categories:</label><br>
+                <input type="number" name="num-cat" min="1" max="10">
+            </div>
+
+            <div class="form-group">
+                <label for="cat">Select Category(ies):</label><br>
+                <input type="checkbox" class="cat" value="cat1">Ink
+                <input type="checkbox" class="cat" value="cat2">Charcoal
+                <input type="checkbox" class="cat" value="cat3">Watercolor Painting<br>
+                <input type="checkbox" class="cat" value="cat4">Acrylic Painting
+                <input type="checkbox" class="cat" value="cat5">Oil Painting
+                <input type="checkbox" class="cat" value="cat6">Chalk Pastel<br>
+                <input type="checkbox" class="cat" value="cat7">Oil Pastel
+                <input type="checkbox" class="cat" value="cat8">Graphite Pencil
+                <input type="checkbox" class="cat" value="cat9">Colored Pencil<br>
+                <input type="checkbox" class="cat" value="cat10">Watercolor Pencil
+            </div>
+
+            <div class="form-group">
+                    <label for="piece">Select Artpiece:</label>
+            </div>
+
+            <div class="form-group">
+                    <label for="date">Collection Date:</label>
+                    <input type="date" class="form-control" id="date">
+            </div>
+
+            <div class="form-group">
+                    <label for="method">Select Method:</label><br>
+                    <input type="radio" class="method" name="method" value="collection">Collection<br>
+                    <input type="radio" class="method" name="method" value="delivery">Delivery<br>
+            </div>
+
+            <div class="form-group">
+                    <label for="frame">Would you like your piece framed?</label><br>
+                    <input type="radio" class="frame" name="frame" value="yes">Yes<br>
+                    <input type="radio" class="frame" name="frame" value="no">No<br>
+            </div>
+            
+            <div class="form-group">
+                    <label for="size">What size would you like the artpiece to be?</label>
+                    <input type="text" class="form-control" id="size" placeholder="Enter size">
+            </div>
+            
+            <div class="form-group">
+                <label for="comments">Comments:</label><br>
+                <textarea rows="4" cols="50" name="comments" id="comments">Enter text here</textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="message">Submit</button>
         </form>
         </div>
 
@@ -46,7 +117,8 @@
           
         <span id = "nav_btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
-        <script src = "../js/code.js"></script>
+        <script src = "../js/nav.js"></script>
+        <script src = "../js/form.js"></script>
 
     </body>
     
