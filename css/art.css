@@ -91,6 +91,7 @@
 #top
 {
     position: fixed;
+    float: right;
     bottom: 0;
     right: 0;
     margin-right: 100px;

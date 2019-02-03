@@ -17,13 +17,13 @@ img
     padding-top: 25px;   
     border-top-style: outset;
     border-top-color: #f0a8a8;
-    border-top-width: 5;
+    border-top-width: 5px;
     border-right-style: outset;
     border-right-color: #f0a8a8;
-    border-right-width: 5;
+    border-right-width: 5px;
     border-left-style: outset;
     border-left-color: #f0a8a8;
-    border-left-width: 5; 
+    border-left-width: 5px; 
 }
 
 #quote 
@@ -36,13 +36,13 @@ img
     letter-spacing: 2px;
     border-bottom-style: outset;
     border-bottom-color: #f0a8a8;
-    border-bottom-width: 5;
+    border-bottom-width: 5px;
     border-right-style: outset;
     border-right-color: #f0a8a8;
-    border-right-width: 5;
+    border-right-width: 5px;
     border-left-style: outset;
     border-left-color: #f0a8a8;
-    border-left-width: 5; 
+    border-left-width: 5px; 
 }
 
 .content
@@ -57,7 +57,7 @@ img
     font-family: 'Akronim';
     border-style: outset;
     border-color: #f0a8a8;
-    border-width: 5;
+    border-width: 5px;
     word-spacing: 2px;
     letter-spacing: 1px;
 }
@@ -90,10 +90,30 @@ img
     border-style: outset;
     border-color: #f0a8a8;
     cursor: pointer;
-    color: #ffffff
+    color: #ffffff;
 }
 
 .list-type
 {
     list-style-type: circle;
+}
+
+#chart
+{
+    margin-right: 25px;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: #000000;
+    border-style: outset;
+    border-color: #f0a8a8;
+    cursor: pointer;
+}
+
+.categories
+{
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+    margin-top: 100px;
+    color: #ffffff;
 }

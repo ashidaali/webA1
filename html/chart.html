@@ -9,42 +9,34 @@
         <script src="../libs/jquery-3.3.1.slim.min.js"></script>
         <script src="../libs/popper.min.js"></script>
         <script src="../libs/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/navbar.css">
-        <link rel="stylesheet" href="../css/tables.css">
         <link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
-        <title>ContactTripleA</title>
+        <title>SalesChart</title>
     </head>
 
-    <body>
+    <body onload="displayLineChart();">
         <div class="content">
-            <div id="title"><h5 align="center">CONTACT</h5></div>
+            <div id="title"><h5 align="center">2018 SALES</h5></div>
             <div><button id="login" onclick="window.alert('Accounts and Login page coming soon!! :D')" type="button">Login</button></div>
-            <table id="formatTable" class="table table-hover table-bordered table-dark">
-                <thead>
-                  <tr>
-                    <th colspan="2">FOR MORE INFORMATION CONTACT ASHIDA AT:</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Email:</td>
-                    <td data-email="ashida.200832@gmail.com">ashida.200832@gmail.com</td>
-                  </tr>
-                  <tr>
-                    <td>Email:</td>
-                    <td data-email="ashida.ali@my.uwi.edu">ashida.ali@my.uwi.edu</td>
-                  </tr>
-                  <tr>
-                    <td>Call:</td>
-                    <td>1-868-394-0417</td>
-                  </tr>
-                  <tr>
-                    <td>Call:</td>
-                    <td>1-868-685-3340</td>
-                  </tr>
-                </tbody>
-            </table>  
+        </div>
+        <div class="categories">
+            <p>CATEGORIES:
+                <ul><li>Ink</li>
+                <li>Charcoal</li>
+                <li>Watercolor Paintings</li>
+                <li>Acrylic Paintings</li>
+                <li>Oil Paintings</li>
+                <li>Chalk Pastels</li>
+                <li>Oil Pastels</li>
+                <li>Graphite Pencil</li>
+                <li>Colored Pencils</li>
+                <li>Watercolor Pencils</li></ul>
+            </p>
+        </div>
+        <div class="box" align="center" style="margin-top: 100px; margin-bottom: 100px">
+            <canvas id="lineChart" height="750" width="1250"></canvas>
         </div>
 
         <div id="mySidenav" class="sidenav">
@@ -53,11 +45,13 @@
                 <li><a href="homepage.html">Home</a></li>
                 <li><a href="artwork.html">Artwork</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
           
         <span id = "nav_btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
+        <script src="../js/chart.js"></script>
         <script src = "../js/nav.js"></script>
 
     </body>

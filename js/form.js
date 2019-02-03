@@ -13,4 +13,5 @@ document.getElementById("message").addEventListener("click", function(){
     }else{
         var no = confirm("Oh, my bad :( Please Continue");
     }
+    return;
 });
